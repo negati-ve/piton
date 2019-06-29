@@ -9,7 +9,7 @@ setup(
 	author="codezed",
 	author_email="zeeshanm1010@gmail.com",
 	description = 'A local python package manager for python3 and pip3',
-	url = 'https://github.com/piton-package-manager/piton', # use the URL to the github repo
+	url = 'https://github.com/negati-ve/piton3', # use the URL to the github repo
 	keywords = ['package', 'manager', 'local'], # arbitrary keywords
 	classifiers = [
 		'Programming Language :: Python :: 3.4',

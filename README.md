@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/piton.svg)](https://badge.fury.io/py/piton)
 ![](https://img.shields.io/badge/python-3.4%2C%203.5-blue.svg)
 
-Piton is a python package manager modelled after NPM. Piton makes it easier for Python developers to share and reuse code. It makes package management simple by doing the following:
+Piton3 is a python3 package manager modelled after NPM. Piton3 makes it easier for Python3 developers to share and reuse code. It makes package management simple by doing the following:
 
 - Install packages locally at `python_modules` folder
 
@@ -29,23 +29,23 @@ Piton is a python package manager modelled after NPM. Piton makes it easier for 
 
 ## Future Plans
 
-Our plans are implement all the features mentioned in the [docs](https://github.com/piton-package-manager/docs) repo.
+Our plans are implement all the features mentioned in the [docs](https://github.com/negati-ve/piton3/docs) repo.
 
 ## Installation
 ```
-pip install piton
+pip install piton3
 ```
 ## Use
 ```
-piton <command>
+piton3 <command>
 ```
 
 ## Typical use case
 
 ```
-piton init //creates a package.json
-piton install django --save
-piton install django-debug-toolbar --save
+piton3 init //creates a package.json
+piton3 install django --save
+piton3 install django-debug-toolbar --save
 ```
 
 **IMPORTANT**: ADD python_modules as a python path
@@ -54,7 +54,7 @@ piton install django-debug-toolbar --save
 
 	Add `.python_modules` to `PYTHONPATH` in `.bash_profile`
 
-	Or use `piton path --save` to do it automatically.
+	Or use `piton3 path --save` to do it automatically.
 
 - Method 2 (more explicit):
 
@@ -69,7 +69,7 @@ piton install django-debug-toolbar --save
 
 - Method 3 (recommended):
 
-	Use piton as a task runner:
+	Use piton3 as a task runner:
 
 	1. Define application entry points in `package.json` under `scripts`
 
@@ -84,7 +84,7 @@ piton install django-debug-toolbar --save
 		}
 		```
 
-	2. Run task with `piton run <task>`
+	2. Run task with `piton3 run <task>`
 
 ## Progress
 
@@ -101,15 +101,15 @@ piton install django-debug-toolbar --save
 | prune         | working       |
 | path          | working       |
 
-## Piton Limitations
+## Piton3 Limitations
 
-Piton is all about making package management local. While it replaces Virtualenv, it is not meant to be a repalcement for setuptools.
+Piton3 is all about making package management local. While it replaces Virtualenv, it is not meant to be a repalcement for setuptools.
 
-Piton continues to use setuptools, and PYPI in the background, along with very limited use of pip. In future versions the dependency on pip will be removed.
+Piton3 continues to use setuptools, and PYPI in the background, along with very limited use of pip. In future versions the dependency on pip will be removed.
 
 ## Developers
 
-Piton can be run with develop_entry.py without installing.
+Piton3 can be run with develop_entry.py without installing.
 
 Deployment:
 ```
