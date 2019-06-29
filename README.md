@@ -1,4 +1,4 @@
-# piton
+# piton3
 
 [![PyPI version](https://badge.fury.io/py/piton.svg)](https://badge.fury.io/py/piton)
 ![](https://img.shields.io/badge/python-3.4%2C%203.5-blue.svg)
