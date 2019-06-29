@@ -5,11 +5,6 @@ piton/__init__.py
 piton/main.py
 piton/package.py
 piton/version.py
-piton.egg-info/PKG-INFO
-piton.egg-info/SOURCES.txt
-piton.egg-info/dependency_links.txt
-piton.egg-info/entry_points.txt
-piton.egg-info/top_level.txt
 piton/commands/__init__.py
 piton/commands/export.py
 piton/commands/import.py
@@ -56,3 +51,8 @@ piton/utils/requirements_txt.py
 piton/utils/sneak_config.py
 piton/utils/tabulate.py
 piton/utils/version.py
+piton3_codezed.egg-info/PKG-INFO
+piton3_codezed.egg-info/SOURCES.txt
+piton3_codezed.egg-info/dependency_links.txt
+piton3_codezed.egg-info/entry_points.txt
+piton3_codezed.egg-info/top_level.txt

@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: piton3-codezed
+Version: 0.0.1
+Summary: A local python package manager
+Home-page: https://github.com/piton-package-manager/piton
+Author: codezed
+Author-email: zeeshanm1010@gmail.com
+License: LICENSE
+Description: UNKNOWN
+Keywords: package,manager,local
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5

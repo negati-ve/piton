@@ -1,5 +1,7 @@
 import os
-import pip
+import sys
+# import pip
+import subprocess
 import shutil
 from . import sneak_config, python_modules
 
@@ -10,10 +12,11 @@ def install(package, version=None, upgrade=False):
 	else:
 		install_item = package
 	print(install_item)
-	command = ['install', install_item, "--upgrade", "--target="+os.path.join(os.getcwd(), "python_modules")]
+	command = [sys.executable, '-m', 'pip','install', install_item, "--upgrade", "--target="+os.path.join(os.getcwd(), "python_modules")]
 	if upgrade:
 		command.append("--upgrade")
-	pip.main(command)
+	# pip.main(command)
+	subprocess.check_call(command) # install pkg
 	sneak_config.sneak_config_remove()
 
 def remove(package):
